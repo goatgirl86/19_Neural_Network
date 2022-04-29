@@ -1,11 +1,11 @@
 # 19_Neural_Network_Charity_Analysis
 ## Relevant Folders and/or Files
 -	Folder - Challenge
--	AlphabetSoupCharity.ipynb
--	AlphabetSoupCharity_Optimization.ipynb
--	AlphabetSoupCharity.h5
--	AlphabetSoupCharity_Optimization.h5
--	charity_data.csv
+    -	AlphabetSoupCharity.ipynb
+    -	AlphabetSoupCharity_Optimization.ipynb
+    -	AlphabetSoupCharity.h5
+    -	AlphabetSoupCharity_Optimization.h5
+    -	charity_data.csv
 
 ## Project Overview
 ### Purpose
@@ -24,7 +24,7 @@ The deliverables for this assignment were:
 
 ### Data Preprocessing
 **1) What variable(s) are considered the target(s) for your model?**
- *For this dataset, I used the “IS_SUCCESSFUL” column as the target variable.*
+*For this dataset, I used the “IS_SUCCESSFUL” column as the target variable.*
 
 **2) What variable(s) are considered to be the features for your model?**
 *In the initial model, I used the following columns as features: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION,  STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, & ASK_AMT.*  
@@ -42,14 +42,14 @@ The deliverables for this assignment were:
 
 **Were you able to achieve the target model performance?**
 *No, despite trying 8 variations, I was not able to get 75% or greater accuracy.  The best I was able to get was 72.70.*
-Attempt 1: Loss = 0.662, Accuracy = 0.559
-Attempt 2: Loss = 0.682, Accuracy = 0.601
-Attempt 3: Loss = 0.623, Accuracy = 0.693
-Attempt 4: Loss = 0.556, Accuracy = 0.724
-Attempt 5: Loss = 15.406, Accuracy = 0.640
-Attempt 6: Loss = 4.630, Accuracy = 0.605
-Attempt 7: Loss = 0.553, Accuracy = 0.727
-Attempt 8: Loss = 0.589, Accuracy = 0.718
+- Attempt 1: Loss = 0.662, Accuracy = 0.559
+- Attempt 2: Loss = 0.682, Accuracy = 0.601
+- Attempt 3: Loss = 0.623, Accuracy = 0.693
+- Attempt 4: Loss = 0.556, Accuracy = 0.724
+- Attempt 5: Loss = 15.406, Accuracy = 0.640
+- Attempt 6: Loss = 4.630, Accuracy = 0.605
+- Attempt 7: Loss = 0.553, Accuracy = 0.727
+- Attempt 8: Loss = 0.589, Accuracy = 0.718
 
 **What steps did you take to try and increase model performance?** 
 - I tried dropping additional columns.
@@ -57,7 +57,7 @@ Attempt 8: Loss = 0.589, Accuracy = 0.718
 - I tried changing the activation functions.
 - I tried changing the number of epochs.  
 
-### Code Snippets from Pandas Analysis
+### Code Snippets of Attempts
 
 ![image](https://user-images.githubusercontent.com/92705556/165880333-6be1bea2-a496-40bc-afa6-a3b0e85a870b.png)
 
@@ -77,6 +77,8 @@ Attempt 8: Loss = 0.589, Accuracy = 0.718
 
 
 ## Summary Conclusions on Neural Networking
-Deep Neural Networking is a very detailed and in-depth analysis process that can potentially tease out even the finest and most minute variability in data.  However, due to its complexity, it takes a long time to complete and can be difficult to understand for people just beginning their analysis journey.  
+Deep Neural Networking is a very detailed and in-depth algorithmic / analytic process that can potentially tease out even the finest and most minute variability in data.  However, due to its complexity, it takes a long time to complete and can be difficult for people just beginning their analysis journey  to understand.  
 
-Other supervised machine learning models, like Random Forest Classifier, perform like processes that often return similar performance and accuracy results.  These simpler models also run more quickly and may be easier to understand.  
+Other supervised machine learning models, like Random Forest Classifier that combines multiple smaller models into a more robust and accurate model, are similar and  often return comparable performance and accuracy results.  These simpler models also run more quickly that neural network models and may be easier to understand.  
+
+No model is perfect, but having the ability and knowledge to use different models is nice.  
