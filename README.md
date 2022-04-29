@@ -38,10 +38,10 @@ The deliverables for this assignment were:
 
 ### Compiling, Training, and Evaluating the Model
 **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
-*I tried eight variations of neurons, layers, and activation functions in my model attempts.*  Screenshots of all eight attempts are below (Code Snippets section).
+*I tried eight variations of neurons, layers, and activation functions in my model attempts. Screenshots of all eight attempts are below (Code Snippets section).*
 
 **Were you able to achieve the target model performance?**
-*No, despite trying 8 variations, I was not able to get 75% or greater accuracy.  The best I was able to get was 72.70.*
+*No, despite trying 8 variations, I was not able to get an accuracy of 75% or greater.  The best I was able to get was 72.70.*
 - Attempt 1: Loss = 0.662, Accuracy = 0.559
 - Attempt 2: Loss = 0.682, Accuracy = 0.601
 - Attempt 3: Loss = 0.623, Accuracy = 0.693
@@ -77,7 +77,7 @@ The deliverables for this assignment were:
 
 
 ## Summary Conclusions on Neural Networking
-Deep Neural Networking is a very detailed and in-depth algorithmic / analytic process that can potentially tease out even the finest and most minute variability in data.  However, due to its complexity, it takes a long time to complete and can be difficult for people just beginning their analysis journey  to understand.  
+Deep Neural Networking is a very detailed and in-depth algorithmic/analytic process that can potentially tease out even the finest and most minute variability in data.  However, due to its complexity, it takes a long time to complete and can be difficult for people just beginning their analysis journey  to understand.  
 
 Other supervised machine learning models, like Random Forest Classifier that combines multiple smaller models into a more robust and accurate model, are similar and  often return comparable performance and accuracy results.  These simpler models also run more quickly that neural network models and may be easier to understand.  
 
