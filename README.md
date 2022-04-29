@@ -9,7 +9,7 @@
 
 ## Project Overview
 ### Purpose
-The purpose of this challenge was to explore neural networks and machine learning to help Beks from “Alphabet Soup Nonprofit Foundation” create a binary classifier that is capable of predicting whether grant applicants will be successful if funded by Alphabet Soup.
+The purpose of this challenge was to explore Neural Networks machine learning to help 'Beks' from "Alphabet Soup Nonprofit Foundation” create a binary classifier that is capable of predicting whether grant applicants will be successful if funded by Alphabet Soup.
 
 ### Data Analyzed
 -	Alphabet Soup Charity dataset (charity_data.csv)
